@@ -1,0 +1,128 @@
+ /*
+Theme Name: Hyoo Team	
+Theme URI: 
+Author: Larry Carranco, Jose Carranco
+Author URI: http://josecarranco.com
+Description: Custom theme made for Hyoo Team. This theme is fully responsive. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Hyoo Team
+
+*/
+
+/**************************************************************************************************
+Imports
+***************************************************************************************************/
+@font-face {
+    font-family: 'Radikal';
+    src:url('Radikal.ttf.woff') format('woff'),
+        url('Radikal.ttf.svg#Radikal') format('svg'),
+        url('Radikal.ttf.eot'),
+        url('Radikal.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**************************************************************************************************
+Universal
+***************************************************************************************************/
+.container {
+	max-width: 1630px;
+	width: 100%;
+}
+.clearPad {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.marginBottom30px {
+	margin-bottom: 30px;
+}
+.marginTop30px {
+	margin-top: 30px;
+}
+a:hover, a:focus {
+	text-decoration: none;
+}
+body {
+	font-family: 'Radikal';
+	font-size: 20px;
+}
+a {
+	color: blue;
+}
+h1 {
+	font-size: ;
+}
+h2 {
+	font-size: ;
+}
+h3 {
+	font-size: ;
+}
+h4 {
+	font-size: ;
+}
+
+
+/********************************************
+Green Background Area
+*********************************************/
+.greenBackground {
+	background: url('images/HYOO-header-Image.jpg');
+	background-size: 100%;
+	background-size: cover;
+	padding-bottom: 100px;
+	background-repeat: no-repeat;
+}
+.hyooLogoContainer {
+	margin: 50px 0 0 0;
+	padding: 0 35px 0 0;
+}
+.diamondContainer {
+	margin-top: 125px;
+}
+.greenDiamond {
+	margin: -685px 0 0 -100px
+}
+
+/********************************************
+Blue Background Area
+*********************************************/
+.blueGreenGradient {
+	background: url('images/blueGreenGradient.jpg');
+	/*background-size: 100%;*/
+	/*background-size: cover;*/
+	background-repeat: repeat-x;
+}
+
+
+/*************************************** ## Media Break 1199px ******************************************
+--------------------------------------------- */
+@media screen and (max-width: 1199px) {
+
+}
+
+/*************************************** ## Media Break 991px ******************************************
+--------------------------------------------- */
+@media screen and (max-width: 991px) {
+
+}
+
+/*************************************** ## Media Break 767px ******************************************
+--------------------------------------------- */
+@media screen and (max-width: 767px) {
+
+}
+
+/*************************************** ## Media Break 560px ******************************************
+--------------------------------------------- */
+@media screen and (max-width:560px) {
+
+}
+
+/*************************************** ## Media Break 480px ******************************************
+--------------------------------------------- */
+@media screen and (max-width: 480px) {
+
+}
