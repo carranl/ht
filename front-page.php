@@ -2,9 +2,9 @@
 <div class="greenBackground">
 	<div class="container">
 		<div class="col-md-12 row greenContainer">
-			<div class="col-md-8 col-md-offset-3 diamondContainer">
-				<img class="blueDiamond" src="<?php echo get_template_directory_uri(); ?>/images/svg/blue-Diamond-multiply-filter.svg" alt="Blue Diamond" />
-				<img class="greenDiamond" src="<?php echo get_template_directory_uri(); ?>/images/svg/green-diamond.svg" alt="Green Diamond" />
+			<div class="col-md-8 col-md-offset-3 hyooHeader">
+				<img class="blueDiamond" src="<?php echo get_template_directory_uri(); ?>/images/svg/HYOO-Header.svg" alt="Hyoo Header" />
+				<a href="" class="chatLink">Interested? Let's chat.</a>
 			</div>
 			<div class="col-md-1 text-right hyooLogoContainer">
 				<img class="hyooLogo" src="<?php echo get_template_directory_uri(); ?>/images/hyoo-logo.png" alt="Hyoo Logo" />
@@ -19,7 +19,7 @@
 				<p>Abilities</p>
 			</div>
 			<div class="col-md-5 col-md-offset-1 row">
-				<h1>WE CAN DO A LOT + SOME</h1>
+				<h1>WE CAN DO A LOT + SOME boobies</h1>
 			</div>
 		</div>
 	</div>

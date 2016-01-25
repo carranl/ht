@@ -41,9 +41,6 @@ Universal
 .marginTop30px {
 	margin-top: 30px;
 }
-a:hover, a:focus {
-	text-decoration: none;
-}
 body {
 	font-family: 'Radikal';
 	font-size: 20px;
@@ -75,15 +72,16 @@ Green Background Area
 	padding-bottom: 100px;
 	background-repeat: no-repeat;
 }
+.hyooHeader {
+	margin-top: 90px;
+}
 .hyooLogoContainer {
-	margin: 50px 0 0 0;
-	padding: 0 35px 0 0;
+	margin: 48px 0 0 0;
 }
-.diamondContainer {
-	margin-top: 125px;
-}
-.greenDiamond {
-	margin: -685px 0 0 -100px
+.chatLink {
+	font-size: 28px;
+	color: #2c555d;
+	text-decoration: underline;
 }
 
 /********************************************
@@ -91,8 +89,6 @@ Blue Background Area
 *********************************************/
 .blueGreenGradient {
 	background: url('images/blueGreenGradient.jpg');
-	/*background-size: 100%;*/
-	/*background-size: cover;*/
 	background-repeat: repeat-x;
 }
 
