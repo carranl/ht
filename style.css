@@ -48,17 +48,8 @@ body {
 a {
 	color: blue;
 }
-h1 {
-	font-size: ;
-}
 h2 {
-	font-size: ;
-}
-h3 {
-	font-size: ;
-}
-h4 {
-	font-size: ;
+	font-size: 28px;
 }
 
 
@@ -90,8 +81,15 @@ Blue Background Area
 .blueGreenGradient {
 	background: url('images/blueGreenGradient.jpg');
 	background-repeat: repeat-x;
+	background-color: #164561;
+	color: #e8eff2;
 }
-
+.sectionTitle h1 {
+	font-size: 80px;
+}
+.brandingAndDesignArea, .devlopmentAndPhotographyArea, .motionAndSocialArea {
+	margin-top: 80px;
+}
 
 /*************************************** ## Media Break 1199px ******************************************
 --------------------------------------------- */
