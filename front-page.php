@@ -15,12 +15,10 @@
 <div class="blueGreenGradient">
 	<div class="container">
 		<div class="col-md-11 col-md-offset-1">
-			<p>Abilities</p>
+			<p>Abilities ---------</p>
 		</div>
-		<div class="col-md-12">
-			<div class="col-md-5 col-md-offset-1 row sectionTitle">
-				<h1>WE CAN DO A LOT + SOME</h1>
-			</div>
+		<div class="col-md-5 col-md-offset-1 row sectionTitle">
+			<h1>WE CAN DO A LOT + SOME</h1>
 		</div>
 		<div class="col-md-12 brandingAndDesignArea">
 			<div class="col-md-1 col-md-offset-1">
@@ -70,6 +68,22 @@
 				<h2>Social Strategy</h2>
 				<p>Most companies don’t have the time or energy to keep up with the gluttony of social media. No worries, we are social superstars and can help you in your quest for stockpiling friends.</p>
 			</div>
+		</div>
+	</div>
+</div>
+<div class="bluePinkGradient">
+	<div class="container">
+		<div class="col-md-11 col-md-offset-1">
+			<p>Contact ---------</p>
+		</div>
+		<div class="col-md-4 col-md-offset-1">
+			<h1>WE'D LOVE TO TALK</h1>
+		</div>
+		<div class="col-md-9 col-md-offset-1">
+			<h1>Let's get this conversation started, hit us up at <a href="">hey@hyoo.co</a></h1>
+		</div>
+		<div class="col-md-9 col-md-offset-1">
+			<p>Seriously though, we’ll send you examples of our work, chat about ideas and become fast friends.</p>
 		</div>
 	</div>
 </div>

@@ -44,6 +44,7 @@ Universal
 body {
 	font-family: 'Radikal';
 	font-size: 20px;
+	color: #e8eff2;
 }
 a {
 	color: blue;
@@ -82,13 +83,28 @@ Blue Background Area
 	background: url('images/blueGreenGradient.jpg');
 	background-repeat: repeat-x;
 	background-color: #164561;
-	color: #e8eff2;
 }
 .sectionTitle h1 {
 	font-size: 80px;
 }
 .brandingAndDesignArea, .devlopmentAndPhotographyArea, .motionAndSocialArea {
 	margin-top: 80px;
+}
+
+/********************************************
+Pink Background Area
+*********************************************/
+.bluePinkGradient {
+	background: url('images/bluePinkGradient.jpg');
+	background-repeat: repeat-x;
+	background-color: #da9988;
+}
+
+/********************************************
+Footer
+*********************************************/
+footer {
+	background-color: #da9988;
 }
 
 /*************************************** ## Media Break 1199px ******************************************
