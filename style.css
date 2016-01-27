@@ -44,15 +44,17 @@ Universal
 body {
 	font-family: 'Radikal';
 	font-size: 20px;
-	color: #e8eff2;
+	color: #e8eff2; 
 }
 a {
-	color: blue;
+	text-decoration: underline;
+}
+h1 {
+	font-size: 80px;
 }
 h2 {
 	font-size: 28px;
 }
-
 
 /********************************************
 Green Background Area
@@ -70,22 +72,36 @@ Green Background Area
 .hyooLogoContainer {
 	margin: 48px 0 0 0;
 }
-.chatLink {
+.hyooHeader a {
 	font-size: 28px;
 	color: #2c555d;
-	text-decoration: underline;
 }
 
 /********************************************
 Blue Background Area
 *********************************************/
+.weCanText {
+	color: #eff5f8;
+}
+.abilitiesText {
+	color: #0bb898;
+}
+p.abilitiesText:after {
+    border-top: 3px solid #0bb898;
+    display: block;
+    content: " ";
+    width: 153px;
+    position: absolute;
+    bottom: 0.6em;
+}
+p.abilitiesText:after {
+	right: 13px;
+}
 .blueGreenGradient {
+	padding-top: 50px;
 	background: url('images/blueGreenGradient.jpg');
 	background-repeat: repeat-x;
 	background-color: #164561;
-}
-.sectionTitle h1 {
-	font-size: 80px;
 }
 .brandingAndDesignArea, .devlopmentAndPhotographyArea, .motionAndSocialArea {
 	margin-top: 80px;
@@ -94,10 +110,26 @@ Blue Background Area
 /********************************************
 Pink Background Area
 *********************************************/
+.contactText {
+	color: #f5534b;
+}
 .bluePinkGradient {
 	background: url('images/bluePinkGradient.jpg');
 	background-repeat: repeat-x;
 	background-color: #da9988;
+}
+.talkSection, .conversationSection {
+	color: #dee7e5;
+}
+.conversationSection h1 {
+	font-size: 90px;
+}
+.conversationSection a {
+	color: #c3ccca;
+}
+.exampleSection {
+	font-size: 50px;
+	color: #b47a6b;
 }
 
 /********************************************
@@ -105,6 +137,8 @@ Footer
 *********************************************/
 footer {
 	background-color: #da9988;
+	font-size: 18px;
+	color: #ffffff;
 }
 
 /*************************************** ## Media Break 1199px ******************************************
