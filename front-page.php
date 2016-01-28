@@ -4,11 +4,13 @@
 		<div class="col-md-12 row greenContainer">
 			<div class="col-md-8 col-md-offset-3 hyooHeader">
 				<img class="blueDiamond" src="<?php echo get_template_directory_uri(); ?>/images/svg/HYOO-Header.svg" alt="Hyoo Header" >
-				<a href="" class="chatLink">Interested? Let's chat.</a>
 			</div>
 			<div class="col-md-1 text-right hyooLogoContainer">
 				<img class="hyooLogo" src="<?php echo get_template_directory_uri(); ?>/images/hyoo-logo.png" alt="Hyoo Logo" >
 			</div>
+		</div>
+		<div class="col-md-2 col-md-offset-6 chatLinkColumn">
+			<a href="" class="chatLink">Interested?  <br />Let's chat.</a>
 		</div>
 	</div>
 </div>
@@ -21,7 +23,7 @@
 				</p>
 			</div>
 			<div class="col-md-5 col-md-offset-1 row weCanText">
-				<h1>WE CAN DO A LOT + SOME</h1>
+				<h1>WE CAN DO<br />A LOT + SOME</h1>
 			</div>
 			<div class="col-md-12 row brandingAndDesignArea">
 				<div class="col-md-1 col-md-offset-1">
@@ -86,7 +88,7 @@
 			<div class="col-md-4 col-md-offset-1 talkSection">
 				<h1>WE'D LOVE TO TALK</h1>
 			</div>
-			<div class="col-md-4 col-md-offset-3">
+			<div class="col-md-4 col-md-offset-3 largeEllipsePinkColumn">
 				<img class="largeEllipsePink" src="<?php echo get_template_directory_uri(); ?>/images/svg/Ellipse-SoftLight-filter.svg" alt="Large Ellipse Pink" >
 			</div>
 			<div class="col-md-9 col-md-offset-1 conversationSection">

@@ -23,6 +23,7 @@ Imports
     font-weight: normal;
     font-style: normal;
 }
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 /**************************************************************************************************
 Universal
@@ -42,7 +43,7 @@ Universal
 	margin-top: 30px;
 }
 body {
-	font-family: 'Radikal';
+	font-family: 'Radikal', sans-serif;
 	font-size: 20px;
 	color: #e8eff2; 
 }
@@ -68,20 +69,33 @@ Green Background Area
 }
 .hyooHeader {
 	margin-top: 90px;
+	margin-bottom: -75px;
 }
 .hyooLogoContainer {
 	margin: 48px 0 0 0;
 }
-.hyooHeader a {
+.chatLinkColumn a {
 	font-size: 28px;
 	color: #2c555d;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300; 
+}
+.chatLinkColumn {
+	margin-left: 55%;
 }
 
 /********************************************
 Blue Background Area
 *********************************************/
+.blueGreenGradient {
+	padding-top: 120px;
+	background: url('images/blueGreenGradient.jpg');
+	background-repeat: repeat-x;
+	background-color: #164561;
+}
 .weCanText {
 	color: #eff5f8;
+	font-weight: ;
 }
 .abilitiesText {
 	color: #0bb898;
@@ -97,29 +111,49 @@ p.abilitiesText:after {
 p.abilitiesText:after {
 	right: 13px;
 }
-.blueGreenGradient {
-	padding-top: 50px;
-	background: url('images/blueGreenGradient.jpg');
-	background-repeat: repeat-x;
-	background-color: #164561;
+.blueGreenGradient p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 .brandingAndDesignArea, .devlopmentAndPhotographyArea, .motionAndSocialArea {
 	margin-top: 80px;
+}
+.motionAndSocialArea {
+	padding-bottom: 205px;
 }
 
 /********************************************
 Pink Background Area
 *********************************************/
-.contactText {
-	color: #f5534b;
-}
 .bluePinkGradient {
+	padding-top: 40px;
 	background: url('images/bluePinkGradient.jpg');
 	background-repeat: repeat-x;
 	background-color: #da9988;
 }
+.contactText {
+	color: #f5534b;
+}
+p.contactText:after {
+    border-top: 3px solid #f5534b;
+    display: block;
+    content: " ";
+    width: 153px;
+    position: absolute;
+    bottom: 0.6em;
+}
+p.contactText:after {
+	right: 11px;
+}
 .talkSection, .conversationSection {
 	color: #dee7e5;
+}
+img.largeEllipsePink {
+	opacity: .25;
+}
+.largeEllipsePinkColumn {
+	margin-bottom: -200px;
+	margin-top: -120px;
 }
 .conversationSection h1 {
 	font-size: 90px;
@@ -128,6 +162,7 @@ Pink Background Area
 	color: #c3ccca;
 }
 .exampleSection {
+	padding-top: 90px;
 	font-size: 50px;
 	color: #b47a6b;
 }
@@ -136,6 +171,7 @@ Pink Background Area
 Footer
 *********************************************/
 footer {
+	padding-top: 190px;
 	background-color: #da9988;
 	font-size: 18px;
 	color: #ffffff;
