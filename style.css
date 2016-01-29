@@ -145,6 +145,9 @@ p.contactText:after {
 p.contactText:after {
 	right: 11px;
 }
+img.dottedLine {
+	background-repeat: repeat-x;
+}
 .talkSection, .conversationSection {
 	color: #dee7e5;
 }

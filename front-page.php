@@ -91,6 +91,9 @@
 			<div class="col-md-4 col-md-offset-3 largeEllipsePinkColumn">
 				<img class="largeEllipsePink" src="<?php echo get_template_directory_uri(); ?>/images/svg/Ellipse-SoftLight-filter.svg" alt="Large Ellipse Pink" >
 			</div>
+			<div class="col-md-10">
+				<img class="dottedLine" src="<?php echo get_template_directory_uri(); ?>/images/lineBreakFull.png" alt="Dotted Line" >
+			</div>
 			<div class="col-md-9 col-md-offset-1 conversationSection">
 				<h1>Let's get this conversation started, hit us up at <a href="">hey@hyoo.co</a></h1>
 			</div>
