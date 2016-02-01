@@ -18,13 +18,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+				<img class="blueSlash" src="<?php echo get_template_directory_uri(); ?>/images/svg/blue-slash.svg" alt="Blue Slash" >
 				<p class="col-md-2 col-md-offset-1 abilitiesText">
 					Abilities
 				</p>
 			</div>
 			<div class="col-md-12 col-md-offset-1 row weCanText">
 				<h1>WE CAN DO</h1>
-				<!-- <img class="blueSlash" src="<?php echo get_template_directory_uri(); ?>/images/blueSlash.png" alt="Blue Slash" > -->
 			</div>
 			<div class="col-md-12 col-md-offset-1 row weCanText weCanTextSecond">
 				<h1>A LOT <span>+</span> SOME</h1>

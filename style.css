@@ -14,16 +14,8 @@ Text Domain: Hyoo Team
 /**************************************************************************************************
 Imports
 ***************************************************************************************************/
-@font-face {
-    font-family: 'Radikal';
-    src:url('Radikal.ttf.woff') format('woff'),
-        url('Radikal.ttf.svg#Radikal') format('svg'),
-        url('Radikal.ttf.eot'),
-        url('Radikal.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /**************************************************************************************************
 Universal
@@ -43,7 +35,7 @@ Universal
 	margin-top: 30px;
 }
 body {
-	font-family: 'Radikal', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	color: #e8eff2; 
 }
@@ -87,6 +79,14 @@ Green Background Area
 /********************************************
 Blue Background Area
 *********************************************/
+img.blueSlash {
+	width: 1135px;
+	height: 1135px;
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
 .blueGreenGradient {
 	padding-top: 120px;
 	background: url('images/blueGreenGradient.jpg');
