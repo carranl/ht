@@ -14,7 +14,7 @@ Text Domain: Hyoo Team
 /**************************************************************************************************
 Imports
 ***************************************************************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /**************************************************************************************************
@@ -83,8 +83,8 @@ img.blueSlash {
 	width: 1135px;
 	height: 1135px;
 	position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 446px;
+    top: -530px;
     z-index: 0;
 }
 .blueGreenGradient {
@@ -179,6 +179,9 @@ img.largeEllipsePink {
 }
 .conversationSection a {
 	color: #c3ccca;
+	text-decoration: none;
+	border-bottom: 9px solid #c3ccca;
+	font-weight: 700;
 }
 .exampleSection {
 	padding-top: 90px;
