@@ -107,6 +107,7 @@ img.blueSlash {
 }
 .abilitiesText {
 	color: #0bb898;
+	font-weight: 700;
 }
 p.abilitiesText:after {
     border-top: 3px solid #0bb898;
@@ -121,7 +122,6 @@ p.abilitiesText:after {
 }
 .blueGreenGradient p {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
 }
 .brandingAndDesignArea {
     margin-top: 30px;
@@ -144,6 +144,7 @@ Pink Background Area
 }
 .contactText {
 	color: #f5534b;
+	font-weight: 700;
 }
 p.contactText:after {
     border-top: 3px solid #f5534b;
@@ -205,6 +206,51 @@ footer a, footer a:hover, footer a:focus {
 	color: #2c555d;
 }
 
+/*************************************** ## Media Break 1277px ******************************************
+--------------------------------------------- */
+@media screen and (max-width: 1277px) {
+/********************************************
+Green Background Area
+*********************************************/
+	.chatLinkColumn {
+		margin-left: 64%;
+	}
+
+/********************************************
+Blue Background Area
+*********************************************/
+	img.blueSlash {
+		width: 999px;
+		height: 999px;
+	    left: 100px;
+	    top: -189px;
+	}
+	p.abilitiesText:after {
+		right: -55px;
+	}
+
+/********************************************
+Pink Background Area
+*********************************************/
+	p.contactText:after {
+	    right: -55px;
+	}
+	img.largeEllipsePink {
+		height: 350px;
+		width: 350px;
+	}
+	.largeEllipsePinkColumn {
+		margin-bottom: -200px;
+		margin-top: 40px;
+	}
+
+/********************************************
+Footer
+*********************************************/
+	footer {
+		font-size: 13px;
+	}
+}
 /*************************************** ## Media Break 1199px ******************************************
 --------------------------------------------- */
 @media screen and (max-width: 1199px) {

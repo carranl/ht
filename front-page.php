@@ -17,16 +17,16 @@
 <div class="blueGreenGradient">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 row">
 				<img class="blueSlash" src="<?php echo get_template_directory_uri(); ?>/images/svg/blue-slash.svg" alt="Blue Slash" >
 				<p class="col-md-2 col-md-offset-1 abilitiesText">
 					Abilities
 				</p>
 			</div>
-			<div class="col-md-12 col-md-offset-1 row weCanText">
+			<div class="col-md-11 col-md-offset-1 row weCanText">
 				<h1>WE CAN DO</h1>
 			</div>
-			<div class="col-md-12 col-md-offset-1 row weCanText weCanTextSecond">
+			<div class="col-md-11 col-md-offset-1 row weCanText weCanTextSecond">
 				<h1>A LOT <span>+</span> SOME</h1>
 			</div>
 			<div class="col-md-12 row brandingAndDesignArea">
@@ -84,7 +84,7 @@
 <div class="bluePinkGradient">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 row">
 				<p class="col-md-2 col-md-offset-1 contactText">
 					Contact
 				</p>
@@ -95,7 +95,7 @@
 			<div class="col-md-4 col-md-offset-3 largeEllipsePinkColumn">
 				<img class="largeEllipsePink" src="<?php echo get_template_directory_uri(); ?>/images/svg/Ellipse-SoftLight-Filter.svg" alt="Large Ellipse Pink" >
 			</div>
-			<div class="col-md-10">
+			<div class="col-md-10 row">
 				<img class="dottedLine" src="<?php echo get_template_directory_uri(); ?>/images/lineBreakFull.png" alt="Dotted Line" >
 			</div>
 			<div class="col-md-9 col-md-offset-1 conversationSection">
