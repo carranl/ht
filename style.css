@@ -93,9 +93,17 @@ Blue Background Area
 	background-repeat: repeat-x;
 	background-color: #164561;
 }
-.weCanText {
+.weCanText h1 {
 	color: #eff5f8;
-	font-weight: ;
+	font-weight: 600;
+}
+.weCanText h1 span {
+	font-weight: 100;
+	font-size: 143px;
+    vertical-align: middle;
+}
+.weCanTextSecond {
+    margin-top: -85px;
 }
 .abilitiesText {
 	color: #0bb898;
@@ -115,7 +123,10 @@ p.abilitiesText:after {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
-.brandingAndDesignArea, .devlopmentAndPhotographyArea, .motionAndSocialArea {
+.brandingAndDesignArea {
+    margin-top: 30px;
+} 
+.devlopmentAndPhotographyArea, .motionAndSocialArea {
 	margin-top: 80px;
 }
 .motionAndSocialArea {
@@ -151,6 +162,9 @@ img.dottedLine {
 .talkSection, .conversationSection {
 	color: #dee7e5;
 }
+.talkSection h1 {
+	font-weight: 600;
+}
 img.largeEllipsePink {
 	opacity: .25;
 }
@@ -160,6 +174,8 @@ img.largeEllipsePink {
 }
 .conversationSection h1 {
 	font-size: 90px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
 }
 .conversationSection a {
 	color: #c3ccca;
@@ -168,6 +184,7 @@ img.largeEllipsePink {
 	padding-top: 90px;
 	font-size: 50px;
 	color: #b47a6b;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /********************************************
@@ -178,6 +195,11 @@ footer {
 	background-color: #da9988;
 	font-size: 18px;
 	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+footer a, footer a:hover, footer a:focus {
+	text-decoration: none;
+	color: #2c555d;
 }
 
 /*************************************** ## Media Break 1199px ******************************************

@@ -22,8 +22,12 @@
 					Abilities
 				</p>
 			</div>
-			<div class="col-md-5 col-md-offset-1 row weCanText">
-				<h1>WE CAN DO<br />A LOT + SOME</h1>
+			<div class="col-md-12 col-md-offset-1 row weCanText">
+				<h1>WE CAN DO</h1>
+				<!-- <img class="blueSlash" src="<?php echo get_template_directory_uri(); ?>/images/blueSlash.png" alt="Blue Slash" > -->
+			</div>
+			<div class="col-md-12 col-md-offset-1 row weCanText weCanTextSecond">
+				<h1>A LOT <span>+</span> SOME</h1>
 			</div>
 			<div class="col-md-12 row brandingAndDesignArea">
 				<div class="col-md-1 col-md-offset-1">
