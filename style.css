@@ -16,10 +16,10 @@ Imports
 ***************************************************************************************************/
 @font-face {
     font-family: 'Radikal';
-    src:url('fonts/Radikal.ttf.woff') format('woff'),
-        url('fonts/Radikal.ttf.svg#Radikal') format('svg'),
-        url('fonts/Radikal.ttf.eot'),
-        url('fonts/Radikal.ttf.eot?#iefix') format('embedded-opentype'); 
+    src:url('Radikal.ttf.woff') format('woff'),
+        url('Radikal.ttf.svg#Radikal') format('svg'),
+        url('Radikal.ttf.eot'),
+        url('Radikal.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
