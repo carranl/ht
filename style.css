@@ -60,11 +60,14 @@ Green Background Area
 	background-repeat: no-repeat;
 }
 .hyooHeader {
-	margin-top: 90px;
+	margin-top: 42px;
 	margin-bottom: -75px;
 }
+img.blueDiamond {
+	width: 850px;
+}
 .hyooLogoContainer {
-	margin: 48px 0 0 0;
+	margin-top: 48px;
 }
 .chatLinkColumn a {
 	font-size: 28px;
@@ -80,11 +83,11 @@ Green Background Area
 Blue Background Area
 *********************************************/
 img.blueSlash {
-	width: 1135px;
-	height: 1135px;
+	width: 999px;
+	height: 999px;
 	position: absolute;
-    left: 446px;
-    top: -530px;
+    left: 171px;
+    top: -225px;
     z-index: 0;
 }
 .blueGreenGradient {
@@ -159,6 +162,7 @@ p.contactText:after {
 }
 img.dottedLine {
 	background-repeat: repeat-x;
+    max-width: 100%;
 }
 .talkSection, .conversationSection {
 	color: #dee7e5;
@@ -206,77 +210,170 @@ footer a, footer a:hover, footer a:focus {
 	color: #2c555d;
 }
 
-/*************************************** ## Media Break 1299px ******************************************
---------------------------------------------- */
+/*************************************** ## Media Break 1299px *******************************************/
 @media screen and (max-width: 1299px) {
 /********************************************
 Green Background Area
 *********************************************/
-	.chatLinkColumn {
-		margin-left: 64%;
-	}
+.chatLinkColumn {
+	margin-left: 64%;
+}
 
 /********************************************
 Blue Background Area
 *********************************************/
-	img.blueSlash {
-		width: 999px;
-		height: 999px;
-	    left: 100px;
-	    top: -189px;
-	}
-	p.abilitiesText:after {
-		right: -55px;
-	}
+p.abilitiesText:after {
+	right: -55px;
+}
 
 /********************************************
 Pink Background Area
 *********************************************/
-	p.contactText:after {
-	    right: -55px;
-	}
-	img.largeEllipsePink {
-		height: 350px;
-		width: 350px;
-	}
+p.contactText:after {
+    right: -55px;
+}
+img.largeEllipsePink {
+	height: 350px;
+	width: 350px;
+}
+.largeEllipsePinkColumn {
+	margin-bottom: -200px;
+	margin-top: 40px;
+}
+}
+
+/*Created a special media break for the Large Pink Ellipse only*/
+@media screen and (max-width: 1145px) {
 	.largeEllipsePinkColumn {
-		margin-bottom: -200px;
-		margin-top: 40px;
+	    margin-top: 140px;
 	}
+}
+
+/*************************************** ## Media Break 1199px *******************************************/
+@media screen and (max-width: 1199px) {
+/********************************************
+Green Background Area
+*********************************************/
+img.blueDiamond {
+	width: 715px;
+}
+
+/********************************************
+Blue Background Area
+*********************************************/
+img.blueSlash {
+    width: 775px;
+}
+}
+
+/*************************************** ## Media Break 991px *******************************************/
+@media screen and (max-width: 991px) {
+/********************************************
+Green Background Area
+*********************************************/
+img.hyooLogo {
+	padding-right: 15px;
+	width: 60px;
+}
+img.blueDiamond {
+	width: 540px;
+}
+
+/********************************************
+Blue Background Area
+*********************************************/
+.devlopmentAndPhotographyArea, .motionAndSocialArea {
+	margin-top: 0;
+}
+.brandingTextColumn, .designTextColomn, .developmentTextColumn, .photographyTextColumn, .motionTextColumn, .socialTextColumn {
+	margin-top: 15px;
+}
+.designIconColumn, .developmentIconColumn, .photographyIconColumn, .motionIconColumn, .socialIconColumn {
+	margin-top: 30px;
+}
+img.blueSlash {
+    width: 596px;
+    left: 69px;
+    top: -31px;
+}
+/********************************************
+Pink Background Area
+*********************************************/
+.largeEllipsePinkColumn {
+    margin-top: -145px;
+    margin-left: 520px;
+}
 
 /********************************************
 Footer
 *********************************************/
-	footer {
-		font-size: 13px;
-	}
-}
-/*************************************** ## Media Break 1199px ******************************************
---------------------------------------------- */
-@media screen and (max-width: 1199px) {
 
 }
 
-/*************************************** ## Media Break 991px ******************************************
---------------------------------------------- */
-@media screen and (max-width: 991px) {
-
-}
-
-/*************************************** ## Media Break 767px ******************************************
---------------------------------------------- */
+/*************************************** ## Media Break 767px *******************************************/
 @media screen and (max-width: 767px) {
+/********************************************
+Green Background Area
+*********************************************/
+
+
+/********************************************
+Blue Background Area
+*********************************************/
+
+
+/********************************************
+Pink Background Area
+*********************************************/
+
+
+/********************************************
+Footer
+*********************************************/
 
 }
 
-/*************************************** ## Media Break 560px ******************************************
---------------------------------------------- */
+/*************************************** ## Media Break 560px *******************************************/
 @media screen and (max-width:560px) {
+/********************************************
+Green Background Area
+*********************************************/
+
+/********************************************
+Blue Background Area
+*********************************************/
+
+
+/********************************************
+Pink Background Area
+*********************************************/
+
+
+/********************************************
+Footer
+*********************************************/
 
 }
 
-/*************************************** ## Media Break 480px ******************************************
---------------------------------------------- */
+/*************************************** ## Media Break 480px *******************************************/
 @media screen and (max-width: 480px) {
+/********************************************
+Green Background Area
+*********************************************/
+
+
+/********************************************
+Blue Background Area
+*********************************************/
+
+
+/********************************************
+Pink Background Area
+*********************************************/
+
+
+/********************************************
+Footer
+*********************************************/
 
 }
