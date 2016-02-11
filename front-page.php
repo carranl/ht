@@ -2,7 +2,7 @@
 <div class="greenBackground">
 	<div class="container">
 		<div class="col-md-12 row greenContainer">
-			<div class="col-sm-1 col-sm-offset-11 col-xs-2 col-xs-offset-10 text-center hyooLogoContainer">
+			<div class="col-lg-1 col-lg-offset-11 text-right hyooLogoContainer">
 				<img class="hyooLogo" src="<?php echo get_template_directory_uri(); ?>/images/hyoo-logo.png" alt="Hyoo Logo" >
 			</div>
 			<div class="col-sm-9 col-sm-offset-3 col-xs-12 hyooHeader">
@@ -19,10 +19,10 @@
 		<div class="row">
 			<div class="col-md-12">
 				<img class="blueSlash" src="<?php echo get_template_directory_uri(); ?>/images/svg/blue-slash.svg" alt="Blue Slash" >
-				<p class="col-md-4 col-md-offset-1 row abilitiesText">
+				<div class="col-md-4 col-md-offset-1 abilitiesText clearPad">
 					Abilities
 					<img src="<?php echo get_template_directory_uri(); ?>/images/svg/greenLine.svg" alt="Green Line" >
-				</p>
+				</div>
 			</div>
 			<div class="col-md-11 col-md-offset-1 weCanText">
 				<h1>WE CAN DO</h1>
@@ -86,24 +86,24 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<p class="col-md-4 col-md-offset-1 row contactText">
+				<div class="col-md-4 col-md-offset-1 contactText clearPad">
 					Contact
 					<img src="<?php echo get_template_directory_uri(); ?>/images/svg/redLine.svg" alt="Red Line" >
-				</p>
+				</div>
 			</div>
-			<div class="col-md-4 col-md-offset-1 talkSection">
+			<div class="col-sm-4 col-sm-offset-1 col-xs-12 talkSection">
 				<h1>WE'D LOVE TO TALK</h1>
 			</div>
-			<div class="col-md-4 col-md-offset-2 largeEllipsePinkColumn">
+			<div class="col-sm-4 col-sm-offset-3 largeEllipsePinkColumn">
 				<img class="largeEllipsePink" src="<?php echo get_template_directory_uri(); ?>/images/svg/Ellipse-SoftLight-Filter.svg" alt="Large Ellipse Pink" >
 			</div>
 			<div class="col-xs-10 row">
 				<img class="dottedLine" src="<?php echo get_template_directory_uri(); ?>/images/lineBreakFull.png" alt="Dotted Line" >
 			</div>
-			<div class="col-md-9 col-md-offset-1 conversationSection">
+			<div class="col-md-9 col-md-offset-1 col-xs-12 conversationSection">
 				<h1>Let's get this conversation started, hit us up at <a href="mailto:hey@hyoo.co">hey@hyoo.co</a></h1>
 			</div>
-			<div class="col-md-9 col-md-offset-1 exampleSection">
+			<div class="col-md-9 col-md-offset-1 col-xs-12 exampleSection">
 				<p>Seriously though, we’ll send you examples of our work, chat about ideas and become fast friends.</p>
 			</div>
 		</div>

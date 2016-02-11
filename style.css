@@ -59,6 +59,9 @@ Green Background Area
 	padding-bottom: 100px;
 	background-repeat: no-repeat;
 }
+img.hyooLogo {
+	max-width: 100%;
+}
 .hyooHeader {
 	margin-top: 42px;
 	margin-bottom: -75px;
@@ -150,6 +153,7 @@ img.dottedLine {
 }
 img.largeEllipsePink {
 	opacity: .25;
+	max-width: 100%;
 }
 .largeEllipsePinkColumn {
 	margin-bottom: -200px;
@@ -191,31 +195,23 @@ footer a, footer a:hover, footer a:focus {
 	padding: 0 40px;
 }
 
+/*Created a special media break for the Large Pink Ellipse only*/
+@media screen and (max-width: 1475px) {
+.largeEllipsePinkColumn {
+    margin-top: -35px;
+}
+}
+
 /*************************************** ## Media Break 1299px *******************************************/
 @media screen and (max-width: 1299px) {
 /********************************************
-Green Background Area
-*********************************************/
-
-/********************************************
 Pink Background Area
 *********************************************/
-img.largeEllipsePink {
-	height: 350px;
-	width: 350px;
-}
 .largeEllipsePinkColumn {
-	margin-bottom: -200px;
 	margin-top: 40px;
 }
 }
 
-/*Created a special media break for the Large Pink Ellipse only*/
-@media screen and (max-width: 1145px) {
-	.largeEllipsePinkColumn {
-	    margin-top: 140px;
-	}
-}
 
 /*************************************** ## Media Break 1199px *******************************************/
 @media screen and (max-width: 1199px) {
@@ -231,6 +227,13 @@ img.blueSlash {
 }
 }
 
+/*Created a special media break for the Large Pink Ellipse only*/
+@media screen and (max-width: 1145px) {
+.largeEllipsePinkColumn {
+    margin-top: 140px;
+}
+}
+
 /*************************************** ## Media Break 991px *******************************************/
 @media screen and (max-width: 991px) {
 /********************************************
@@ -238,10 +241,6 @@ Green Background Area
 *********************************************/
 .greenContainer {
 	margin-bottom: 25px;
-}
-img.hyooLogo {
-	padding-right: 15px;
-	width: 60px;
 }
 .chatLinkColumn {
 	margin-left: 56%;
@@ -274,8 +273,10 @@ img.blueSlash {
 Pink Background Area
 *********************************************/
 .largeEllipsePinkColumn {
-    margin-top: -145px;
-    margin-left: 360px;
+    /*margin-top: -240px;*/
+}
+img.largeEllipsePink {
+	max-width: 100%;
 }
 
 /********************************************
@@ -307,7 +308,7 @@ img.blueSlash {
 Pink Background Area
 *********************************************/
 .largeEllipsePinkColumn {
-    margin-left: 158px;
+    margin-bottom: -580px;
 }
 .conversationSection h1 {
     font-size: 56px;
@@ -359,9 +360,7 @@ img.blueSlash {
 /********************************************
 Pink Background Area
 *********************************************/
-.largeEllipsePinkColumn {
-    margin-left: 99px;
-}
+
 
 /********************************************
 Footer
@@ -382,7 +381,7 @@ h1 {
 Green Background Area
 *********************************************/
 img.hyooLogo {
-    width: 47px;
+	max-width: 20%;
 }
 img.blueDiamond {
     max-width: 100%;
@@ -410,10 +409,7 @@ img.blueSlash {
 Pink Background Area
 *********************************************/
 .largeEllipsePinkColumn {
-    margin-left: 30px;
-}
-img.largeEllipsePink {
-    width: 255px;
+    margin-bottom: -580px;
 }
 .conversationSection h1 {
     font-size: 42px;
