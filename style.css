@@ -64,7 +64,7 @@ Green Background Area
 	margin-bottom: -75px;
 }
 img.blueDiamond {
-	width: 850px;
+	max-width: 70%;
 }
 .hyooLogoContainer {
 	margin-top: 48px;
@@ -76,7 +76,7 @@ img.blueDiamond {
 	font-weight: 300; 
 }
 .chatLinkColumn {
-	margin-left: 55%;
+	margin-left: 53%;
 }
 
 /********************************************
@@ -112,17 +112,6 @@ img.blueSlash {
 	color: #0bb898;
 	font-weight: 700;
 }
-p.abilitiesText:after {
-    border-top: 3px solid #0bb898;
-    display: block;
-    content: " ";
-    width: 153px;
-    position: absolute;
-    bottom: 0.6em;
-}
-p.abilitiesText:after {
-	right: 13px;
-}
 .blueGreenGradient p {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -148,17 +137,6 @@ Pink Background Area
 .contactText {
 	color: #f5534b;
 	font-weight: 700;
-}
-p.contactText:after {
-    border-top: 3px solid #f5534b;
-    display: block;
-    content: " ";
-    width: 153px;
-    position: absolute;
-    bottom: 0.6em;
-}
-p.contactText:after {
-	right: 11px;
 }
 img.dottedLine {
 	background-repeat: repeat-x;
@@ -209,29 +187,19 @@ footer a, footer a:hover, footer a:focus {
 	text-decoration: none;
 	color: #2c555d;
 }
+.footerPipe {
+	padding: 0 40px;
+}
 
 /*************************************** ## Media Break 1299px *******************************************/
 @media screen and (max-width: 1299px) {
 /********************************************
 Green Background Area
 *********************************************/
-.chatLinkColumn {
-	margin-left: 64%;
-}
-
-/********************************************
-Blue Background Area
-*********************************************/
-p.abilitiesText:after {
-	right: -55px;
-}
 
 /********************************************
 Pink Background Area
 *********************************************/
-p.contactText:after {
-    right: -55px;
-}
 img.largeEllipsePink {
 	height: 350px;
 	width: 350px;
@@ -254,9 +222,6 @@ img.largeEllipsePink {
 /********************************************
 Green Background Area
 *********************************************/
-img.blueDiamond {
-	width: 715px;
-}
 
 /********************************************
 Blue Background Area
@@ -271,17 +236,26 @@ img.blueSlash {
 /********************************************
 Green Background Area
 *********************************************/
+.greenContainer {
+	margin-bottom: 25px;
+}
 img.hyooLogo {
 	padding-right: 15px;
 	width: 60px;
 }
-img.blueDiamond {
-	width: 540px;
+.chatLinkColumn {
+	margin-left: 56%;
 }
 
 /********************************************
 Blue Background Area
 *********************************************/
+.brandingAndDesignArea, .devlopmentAndPhotographyArea, .motionAndSocialArea {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
 .devlopmentAndPhotographyArea, .motionAndSocialArea {
 	margin-top: 0;
 }
@@ -301,7 +275,7 @@ Pink Background Area
 *********************************************/
 .largeEllipsePinkColumn {
     margin-top: -145px;
-    margin-left: 520px;
+    margin-left: 360px;
 }
 
 /********************************************
@@ -315,22 +289,56 @@ Footer
 /********************************************
 Green Background Area
 *********************************************/
-
+.hyooHeader {
+	text-align: center;
+}
 
 /********************************************
 Blue Background Area
 *********************************************/
-
+img.blueSlash {
+    width: 417px;
+}
+.motionAndSocialArea {
+    padding-bottom: 60px;
+}
 
 /********************************************
 Pink Background Area
 *********************************************/
-
+.largeEllipsePinkColumn {
+    margin-left: 158px;
+}
+.conversationSection h1 {
+    font-size: 56px;
+}
+.exampleSection {
+    font-size: 42px;
+}
 
 /********************************************
 Footer
 *********************************************/
 
+}
+/*Created a special media break for the "We Can Do A Lot Text"*/
+@media screen and (max-width:657px) {
+/********************************************
+Universal
+*********************************************/
+h1 {
+	font-size: 56px;
+}
+
+/********************************************
+Blue Background Area
+*********************************************/
+.weCanText h1 span {
+    font-size: 84px;
+}
+.weCanTextSecond {
+    margin-top: -50px;
+}
 }
 
 /*************************************** ## Media Break 560px *******************************************/
@@ -338,16 +346,22 @@ Footer
 /********************************************
 Green Background Area
 *********************************************/
-
+.chatLinkColumn a {
+    font-size: 24px;
+}
 /********************************************
 Blue Background Area
 *********************************************/
-
+img.blueSlash {
+    width: 362px;
+}
 
 /********************************************
 Pink Background Area
 *********************************************/
-
+.largeEllipsePinkColumn {
+    margin-left: 99px;
+}
 
 /********************************************
 Footer
@@ -357,20 +371,56 @@ Footer
 
 /*************************************** ## Media Break 480px *******************************************/
 @media screen and (max-width: 480px) {
+	/********************************************
+Universal
+*********************************************/
+h1 {
+	font-size: 36px;
+}
+
 /********************************************
 Green Background Area
 *********************************************/
-
+img.hyooLogo {
+    width: 47px;
+}
+img.blueDiamond {
+    max-width: 100%;
+}
+.chatLinkColumn a {
+    font-size: 20px;
+}
 
 /********************************************
 Blue Background Area
 *********************************************/
-
+.weCanText h1 span {
+    font-size: 56px;
+}
+.weCanTextSecond {
+    margin-top: -30px;
+}
+img.blueSlash {
+    width: 267px;
+    left: 24px;
+    top: 0px;
+}
 
 /********************************************
 Pink Background Area
 *********************************************/
-
+.largeEllipsePinkColumn {
+    margin-left: 30px;
+}
+img.largeEllipsePink {
+    width: 255px;
+}
+.conversationSection h1 {
+    font-size: 42px;
+}
+.exampleSection {
+    font-size: 28px;
+}
 
 /********************************************
 Footer
