@@ -1,24 +1,18 @@
 jQuery(document).ready(function($) {
 
-  // $('.bannerslider').royalSlider({
-  //     imageScaleMode: 'none',
-  //     slidesSpacing: 0,
-  //     arrowsNavAutoHide: false,
-  //     fadeinLoadedSlide: false,
-  //     transitionType: 'fade',
-  //     loop: 'true',
-  //     fullscreen: {
-  //       // fullscreen options go gere
-  //       enabled: true,
-  //       nativeFS: false
-  //     },
-  //     autoPlay: {
-  //         // autoplay options go gere
-  //         enabled: true,
-  //         // autoScaleSlider: true,
-  //         pauseOnHover: false,
-  //         delay: 4500,
-  //     }
-  // });
+  jQuery(function() {
+  jQuery('a[href*="linkToEmail"]:not([href="linkToEmail"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = jQuery(this.hash);
+      target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        jQuery('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1200);
+        return false;
+      }
+    }
+  });
+});
 });
 

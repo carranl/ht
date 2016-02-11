@@ -10,7 +10,7 @@
 			</div>
 		</div>
 		<div class="col-sm-3 col-sm-offset-6 chatLinkColumn">
-			<a href="" class="chatLink">Interested?  <br />Let's chat.</a>
+			<a href="#linkToEmail" class="chatLink">Interested?  <br />Let's chat.</a>
 		</div>
 	</div>
 </div>
@@ -100,7 +100,7 @@
 			<div class="col-xs-10 row">
 				<img class="dottedLine" src="<?php echo get_template_directory_uri(); ?>/images/lineBreakFull.png" alt="Dotted Line" >
 			</div>
-			<div class="col-md-9 col-md-offset-1 col-xs-12 conversationSection">
+			<div class="col-md-9 col-md-offset-1 col-xs-12 conversationSection" id="linkToEmail" >
 				<h1>Let's get this conversation started, hit us up at <a href="mailto:hey@hyoo.co">hey@hyoo.co</a></h1>
 			</div>
 			<div class="col-md-9 col-md-offset-1 col-xs-12 exampleSection">
