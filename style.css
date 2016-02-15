@@ -86,10 +86,10 @@ img.blueDiamond {
 Blue Background Area
 *********************************************/
 img.blueSlash {
-	width: 999px;
-	height: 999px;
+	width: 100%;
+	margin: auto;
+	display: block;
 	position: absolute;
-    left: 171px;
     top: -225px;
     z-index: 0;
 }
@@ -129,6 +129,33 @@ img.blueSlash {
 }
 
 /********************************************
+SVG Styles
+*********************************************/
+svg.blueLine {
+	margin: auto;
+	display: block;
+	width: 50%;
+	z-index: 0;
+}
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5) rotate(90deg);
+    opacity: 1;
+    fill: #fdf097;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.st0 {
+	animation: grow 2s  ease-out forwards;
+}
+
+
+/********************************************
 Pink Background Area
 *********************************************/
 .bluePinkGradient {
@@ -142,7 +169,7 @@ Pink Background Area
 	font-weight: 700;
 }
 img.dottedLine {
-	background-repeat: repeat-x;
+	/*background-repeat: repeat-x;*/
     max-width: 100%;
 }
 .talkSection, .conversationSection {

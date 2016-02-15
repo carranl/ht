@@ -21,6 +21,9 @@
 				<img class="blueSlash" src="<?php echo get_template_directory_uri(); ?>/images/svg/blue-slash.svg" alt="Blue Slash" >
 				<div class="col-md-4 col-md-offset-1 abilitiesText clearPad">
 					Abilities
+
+				<?php include('images/svg/blue-slash.svg'); ?>
+
 					<img src="<?php echo get_template_directory_uri(); ?>/images/svg/greenLine.svg" alt="Green Line" >
 				</div>
 			</div>
